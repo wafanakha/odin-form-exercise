@@ -5,24 +5,33 @@ body {
 img {
   height: 100vh;
 }
+.form-section div {
+  flex: 0.5 auto;
+}
+#title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 4rem;
+  margin-right: 10rem;
+}
+h1 {
+  font-size: x-large;
+}
 .form-section {
   height: 100vh;
   width: 100vw;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column;
 }
 form {
-  background-color: aqua;
-  width: 70%;
+  background-color: #c4b797;
   height: 10rem;
   display: flex;
   gap: 10rem;
   padding: 5rem;
 }
-.form-section div {
-  height: 100%;
-}
+
 label,
 input {
   display: block;
