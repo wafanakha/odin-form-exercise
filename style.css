@@ -5,5 +5,28 @@ body {
 img {
   height: 100vh;
 }
-form-section {
+.form-section {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+form {
+  background-color: aqua;
+  width: 70%;
+  height: 10rem;
+  display: flex;
+  gap: 10rem;
+  padding: 5rem;
+}
+.form-section div {
+  height: 100%;
+}
+label,
+input {
+  display: block;
+}
+input {
+  margin-bottom: 2rem;
 }
