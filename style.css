@@ -1,3 +1,6 @@
+:root {
+  --main-color: #c4b797;
+}
 body {
   overflow: hidden;
   display: flex;
@@ -10,8 +13,8 @@ img {
 }
 #title {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: space-evenly;
   margin-left: 4rem;
   margin-right: 10rem;
 }
@@ -25,17 +28,25 @@ h1 {
   flex-direction: column;
 }
 form {
-  background-color: #c4b797;
+  background-color: var(--main-color);
   height: 10rem;
   display: flex;
-  gap: 10rem;
+  gap: 1rem;
   padding: 5rem;
+  padding-top: 3rem;
+  color: aliceblue;
 }
 
 label,
 input {
   display: block;
 }
+label {
+  font-size: large;
+}
 input {
+  background-color: var(--main-color);
   margin-bottom: 2rem;
+  border-radius: 6px;
+  border: 1px solid aliceblue;
 }
