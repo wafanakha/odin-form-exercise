@@ -9,15 +9,14 @@ body {
 img {
   height: 100vh;
 }
-.form-section div {
-  flex: 0.5 auto;
-}
+
 #title {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   margin-left: 4rem;
   margin-right: 10rem;
+  flex: 1 auto;
 }
 h1 {
   font-size: x-large;
@@ -32,11 +31,11 @@ form {
   background-color: var(--main-color);
   height: 10rem;
   display: flex;
-  gap: 1rem;
+  gap: 10rem;
   padding: 5rem;
   padding-top: 3rem;
   color: aliceblue;
-  box-shadow: 0 2px 20px#2e2517;
+  box-shadow: 0 10px 20px#2e2517;
 }
 
 label,
@@ -50,5 +49,18 @@ input {
   background-color: var(--main-color);
   margin-bottom: 2rem;
   border-radius: 6px;
-  border: 1px solid aliceblue;
+  border: 2px solid aliceblue;
+}
+#signup {
+  flex: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 4rem;
+}
+button {
+  width: fit-content;
+  background-color: var(--main-color);
+  padding: 1rem;
+  border: 0;
 }
