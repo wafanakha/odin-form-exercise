@@ -4,6 +4,7 @@
 body {
   overflow: hidden;
   display: flex;
+  font-family: "Josefin Sans", sans-serif;
 }
 img {
   height: 100vh;
